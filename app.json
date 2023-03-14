@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Grocer_app",
+    "slug": "Grocer_app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.anonymous.Grocer_app"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "custom photos permission",
+            "cameraPermission": "Allow $(PRODUCT_NAME) to open the camera",
+   
+            "//": "Disables the microphone permission",
+            "microphonePermission": false
+          }
+        ]
+      ]
+    }
+  }
+}
